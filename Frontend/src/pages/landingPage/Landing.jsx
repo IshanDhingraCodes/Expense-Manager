@@ -1,10 +1,11 @@
-import Navbar from "./components/Navbar";
+import { Hero, Navbar } from "./components";
 
 function Landing() {
   return (
     <>
-      <div className="w-full h-screen bg-black">
+      <div className="w-full bg-gray-900 box-border">
         <Navbar />
+        <Hero />
       </div>
     </>
   );
